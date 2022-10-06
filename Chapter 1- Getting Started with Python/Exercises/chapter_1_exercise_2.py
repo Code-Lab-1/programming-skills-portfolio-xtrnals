@@ -9,4 +9,5 @@ Original file is located at
 Exercise 2: Print the Version of Python ☑️
 """
 
-!python --version
+import platform
+print (platform.python_version())
